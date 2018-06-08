@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{5c121271-17a5-4d2f-bd35-683a44cafc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite-demo">
+      <UniqueIdentifier>{19f38c49-c5bb-4008-a512-cf398b21c920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite-demo\VFS layer">
+      <UniqueIdentifier>{add2da61-763e-4a61-b68e-319ffb12c0c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\db.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite-demo\VFS layer\vfs.h">
+      <Filter>sqlite-demo\VFS layer</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite-demo\VFS layer\sqlite3.h">
+      <Filter>sqlite-demo\VFS layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sqlite-demo\VFS layer\test_demovfs.cpp">
+      <Filter>sqlite-demo\VFS layer</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite-demo\VFS layer\sqlite3.c">
+      <Filter>sqlite-demo\VFS layer</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite-demo\VFS layer\lock.cpp">
+      <Filter>sqlite-demo\VFS layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
